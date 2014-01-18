@@ -1,3 +1,5 @@
+import gzip
+
 class FastqReadHeader(object):
     """Parsed header of a casava 1.8-style fastq read."""
     fieldslist = ['instrument', 'run', 'flowcell', 'lane', 'tile', 'x', 'y',
